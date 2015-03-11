@@ -78,6 +78,10 @@ div{
 	
 }
 
+.top-navigation .links li:hover{
+	cursor:pointer;
+	color:red;
+}
 .top-navigation .links > .active {
     color: #4c5058;
     font-weight: 600;
@@ -86,4 +90,11 @@ div{
 
 .content {
 	padding: 0 15px;
+}
+
+/* Middle Part*/
+
+.introducrion{
+	background-image: url(dropbox.com/s/trzctf6cn0w7cta/first-background%20copy.jpg)
+
 }
