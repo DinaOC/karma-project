@@ -47,9 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-div{
-	border: 1px solid Brown;
-}
 
 /* Navigation Section*/
 .top-navigation{
@@ -62,9 +59,11 @@ div{
 
 .top-navigation .logo{
 	height: 70px;
+	margin-left: 25em;
 }
 .top-navigation .links{
 	float:right;
+	margin-right:25em;
 }
 
 .links >li{
@@ -80,7 +79,7 @@ div{
 
 .top-navigation .links li:hover{
 	cursor:pointer;
-	color:red;
+	color: #F06013;
 }
 .top-navigation .links > .active {
     color: #4c5058;
@@ -90,11 +89,46 @@ div{
 
 .content {
 	padding: 0 15px;
+
 }
 
 /* Middle Part*/
 
-.introducrion{
-	background-image: url(dropbox.com/s/trzctf6cn0w7cta/first-background%20copy.jpg)
-
+.introduction {
+    background-image: url('http://thinkful-ed.github.io/karma-clone/img/first-background.jpg');
+ background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
 }
+
+.introduction > .content{
+color: white;
+text-align: center;	
+padding: 12em;
+}
+.introduction h1 {
+  font-size: 3.125rem;
+}
+ .introduction h3 {
+ 	margin-top:30px;
+ 	font-size: 25px;
+}
+
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    margin-top: 30px;
+    width:180px;
+    background-color: #F06013;
+    color:white;
+    font-size: 18px;
+   }
+
+   .big-button:hover {
+   	cursor:pointer;
+   	background-color: #C95908;
+   }
