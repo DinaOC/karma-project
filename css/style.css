@@ -132,3 +132,21 @@ padding: 12em;
    	cursor:pointer;
    	background-color: #C95908;
    }
+
+   /* Three-icon Section*/
+
+
+   .cases h2{
+   	text-align: center;
+   	font-size: 2.75rem;
+   	font-weight: 300;
+   }
+
+   .cases .devices{
+   width: 33%;
+    display: inline-block;
+    height: 4em;
+    margin:0;
+   }
+
+
