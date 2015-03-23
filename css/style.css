@@ -51,6 +51,7 @@ table {
 /* Navigation Section*/
 .top-navigation {
 	background-color: #fff;
+	position:fixed;
     
    
 }
@@ -146,13 +147,17 @@ padding: 12em;
    }
 
    .cases .devices{
-   width: 20%;
-   margin-left: 14em;
+   width: 15%;
+   margin-left: 17em;
    margin-top: 7em;
    display: inline-block;
     height: 4em;
     }
 
+.devices >img {
+	height:200%;
+	margin-left: 2.5em;
+}
 p {
 	font-weight: 400;
   font-size: 1.600rem;
@@ -173,6 +178,8 @@ p {
 }
 .social h5{
 	text-align: center;
+	font-size: 1.3em;
+	margin-top: 2em;
 
 }
 .social .icons >li :hover{
@@ -180,13 +187,20 @@ p {
 }
  .social .icons >li {
 
-border-radius: 1.25rem;
+  border-radius: 1.25rem;
   width: 2.5rem;
   height: 2.5rem;
   display: inline-block;
-  margin: 2.25rem 5px;
+  margin: 1.25rem 5px;
   border: 1px solid #eaebec;
-  text-align: center;
+  text-align:center;
+
+}
+
+.icons {
+	margin: 0 auto;
+	width:180px;
+
 }
 
 .social .twitter {
@@ -205,5 +219,7 @@ border-radius: 1.25rem;
   font-size: 0.9rem;
   font-weight: 300;
   color: #838994;
-  text-align: center;
+  
+  width: 180px;
   }
+  
